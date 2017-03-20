@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+    <html>
+        <head>
+            <title>Pizza Planet</title>
+            <link rel="stylesheet" href="style.css">
+            <script   src="https://code.jquery.com/jquery-3.1.1.js"   integrity="sha256-16cdPddA6VdVInumRGo6IbivbERE8p7CQR3HzTBuELA="   crossorigin="anonymous"></script>
+           <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+            <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+            <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+            <script src="script.js"></script>
+        </head>
+        <body class="body">
+            
+            <h1>Pizza Planet</h1>
+                <div class="container"> 
+                       
+                    <div class="field-container">
+                        <div class="col-lg-6">
+                            <div class="input-group" pull-right>
+                            </span>
+                            <input type="text" class="form-control" id="location-name" placeholder="Add Location Name...">
+                            </div>
+                        </div><br><br>         
+                            <div class="col-lg-6">
+                                <div class="input-group">
+                                </span>
+                                <input type="text" class="form-control" id="location-line1" placeholder="Street Address...">
+                                </div>
+                            </div><br><br>
+                            <div class="col-lg-6">
+                            <div class="input-group">
+                            </span>
+                            <input type="text" class="form-control" id="location-line2" placeholder="Suite/Apt Number...">
+                            </div>
+                        </div><br><br>
+                        <div class="col-lg-6">
+                            <div class="input-group">
+                            </span>
+                            <input type="text" class="form-control" id="location-city" placeholder="City...">
+                            </div>
+                        </div><br><br>
+                        
+                        <div class="col-lg-6">
+                            <div class="input-group">
+                            </span>
+                            <input type="text" class="form-control" id="location-state" maxlength="2" placeholder="State...">
+                            </div>
+                        </div><br><br>
+                         <div class="col-lg-6">
+                            <div class="input-group">
+                            </span>
+                            <input type="text" maxlength="5" class="form-control" id="location-zip" placeholder="Zip...">
+                            </div>
+                        </div><br><br>
+                        <div class="telephone col-lg-2" >
+                        <form action="action_page.php">
+                            <input type="tel" name="usrtel" class="form-control" id="location-phone" maxlength="12" placeholder="Phone #...">
+                            </form>
+                    </div>
+                        
+                        <!--<div> -->
+                            <form action="demo_form.asp" method="get">
+                                <input type="checkbox" class="form-control col-lg-2" id="location-delivers" name="delivery" value="Yes">Delivery<br>               
+                            </form><br>
+                        <!--</div>-->
+                        
+
+                        <button type="button" class="submit">Submit</button>
+                        </div><br><br>
+                            <div class="container-list">
+                        <div id="location-list"></div>
+                    </div>
+                    </div>
+            </div>
+        </body>
+        </head>
